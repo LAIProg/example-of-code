@@ -1,0 +1,173 @@
+.w_body {
+	background-color: #fff;
+	margin: auto;
+	padding-top: 15px;
+	position: relative;
+	border: solid 1px #ccc
+}
+.w_body[w_stage="0"] {
+	width: 550px;
+	height: 299px
+}
+.w_body[w_stage="1"] {
+	width: 650px;
+	height: 402px
+}
+.w_body[w_stage="2"] {
+	width: 550px;
+	height: 316px
+}
+.w_body[w_stage="3"] {
+	width: 650px;
+	height: 381px
+}
+.w_body[w_stage="4"] {
+	width: 550px;
+	height: 371px
+}
+.w_body[w_stage="5"] {
+	width: 550px;
+	height: 343px
+}
+.w_body>div[w_body] {
+	position: relative
+}
+.w_body>div[w_body]>p[eng], .w_body>div[w_body]>p[rus] {
+	font-weight: bold;
+	margin: 0;
+	font-size: 13pt
+}
+.w_body>div[w_body]>p[eng] {
+	color: #000
+}
+.w_body>div[w_body]>p[transc] {
+	font-size: 11pt;
+	margin: 0 0 20px -1px;
+	height: 20px
+}
+.w_body>div[w_body]>p[rus] {
+	color: #c60
+}
+.w_body>div[w_body]>p[res] {
+	font-size: 11pt;
+	font-weight: bold;
+	margin: 0 0 25px
+}
+.w_body>div[w_body]>p[complete] {
+	font-size: 20pt;
+	margin: 0 0 30px
+}
+.w_body>div[w_body]>p[mistake] {
+	font-size: 14pt;
+	margin: -20px 0 30px
+}
+.w_body>div[w_body]>p[eng]>span {
+	color: #c60
+}
+.w_body>div[w_body]>img[star] {
+	position: absolute;
+	width: 210px
+}
+.w_body>div[w_body]>div[w_comm] {
+	width: 460px;
+	height: 35px;
+	margin: 15px 20px;
+	text-align: left;
+	font-size: 10pt
+}
+.answ[w_answ="1_3"], .button[w_button="1_3"] {
+	width: 292px;
+	height: 63px;
+	margin: 0 2px 15px 20px;
+	float: left
+}
+.answ[w_answ="1_3"] {
+	text-align: left;
+	line-height: normal
+}
+.answ[w_answ="1_3"]>p[rus] {
+	margin: 1px 10px 0
+}
+.answ[w_answ="1_3"]>p[comm] {
+	font-size: 10pt;
+	margin: 0 10px;
+	font-weight: normal
+}
+.answ[w_answ="2"], .answ[w_answ="4"] {
+	width: 150px;
+	margin: 0 15px;
+	display: inline-block
+}
+.answ[w_answ="4"] {
+	width: 180px
+}
+.answ[w_answ="5"], .button[w_button="5"] {
+	width: 232px;
+	margin: 0 2px 15px 20px;
+	float: left
+}
+.answ[w_answ="5"] {
+	text-align: left;
+	padding-left: 10px
+}
+.answ[w_mistake], .button[w_mistake] {
+	width: 180px;
+	margin: 40px 15px;
+	display: inline-block
+}
+.answ[w_mistake]>img {
+	vertical-align: top;
+	margin: 9px 10px 0 0
+}
+.button[w_button="0"], .button[w_button="2"], .button[w_button="4"] {
+	width: 180px;
+	margin-top: 40px;
+	display: inline-block
+}
+.button[w_button="1_3"] {
+	line-height: 62px
+}
+.button[w_button="4"] {
+	margin: 38px 15px
+}
+.button[w_button="5"] {
+	width: 242px
+}
+.w_body>div[w_body]>div[w_hole] {
+	margin-bottom: 65px
+}
+.w_body>div[w_body]>div[w_hole]>div {
+	width: 25px;
+	height: 24px;
+	background-color: #e5e2dc;
+	border-top: solid 1px #ccc;
+	margin: 0 2px;
+	display: inline-block
+}
+.w_body>div[w_body]>div[w_letter]>div {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	line-height: 24px
+}
+.w_body>div[w_body]>div[letter_clear] {
+	width: 30px;
+	height: 25px;
+	position: absolute;
+	right: 20px;
+	top: 126px
+}
+.w_body>div[w_body]>div[letter_clear]>img {
+	margin: 7px 0 0 -1px;
+	vertical-align: top
+}
+.w_body>div[w_footer] {
+	width: 100%;
+	height: 49px;
+	border-top: dashed 1px #aaa;
+	position: absolute;
+	bottom: 0;
+	font-size: 11pt;
+	line-height: 48px;
+	color: #c60
+}
